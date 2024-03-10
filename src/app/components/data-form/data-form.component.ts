@@ -9,5 +9,8 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './data-form.component.css'
 })
 export class DataFormComponent {
-
+  value = "";
+  clearValue() {
+    this.value = "";
+  }
 }
