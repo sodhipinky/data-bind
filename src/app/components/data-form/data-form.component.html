@@ -1,3 +1,4 @@
+<h3>{{ today | date: 'YYYY-MM-dd'}}</h3>
 <input type="text" name="value" placeholder="Enter some text" style="font-size: x-large;" [(ngModel)]="value">
 <h2>{{ value | uppercase }}</h2>
 <button type="button" style="font-size: x-large;" (click)="clearValue()">Clear Text</button>

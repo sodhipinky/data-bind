@@ -11,6 +11,7 @@ import { CommonModule } from '@angular/common';
 })
 export class DataFormComponent {
   value = "";
+  today = new Date();
   clearValue() {
     this.value = "";
   }
